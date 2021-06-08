@@ -1,0 +1,21 @@
+{
+  "name": "ngoc/ingredient",
+  "version": "1.0.0",
+  "description": "N/A",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-catalog": "*"
+  },
+  "license": [
+    "Apache Software License (ASL)"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Ngoc\\Ingredient\\": ""
+    }
+  }
+}
