@@ -1,0 +1,13 @@
+<?php
+$ingredients = $block->getIngredientText();
+?>
+<?php if(!empty($ingredients)):?>
+<h3><?php echo __('Product has following ingredient(s):');?></h3>
+<ul>
+    <?php foreach($ingredients as $ingredient):?>
+    <li><?php echo $ingredient;?></li>
+    <?php endforeach;?>
+</ul>
+<?php else:?>
+<p><?php echo __('Product has no secret ingredient');?></p>
+<?php endif;?>
